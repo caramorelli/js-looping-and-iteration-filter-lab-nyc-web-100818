@@ -22,7 +22,13 @@ function fuzzyMatch(drivers, string) {
 }
 
 function matchName(drivers, string) {
-  
+  var match_arr = [];
+  for ( var i = 0; i < drivers.length; i++) {
+    if (drivers[i].startsWith(string)) {
+      match_arr.push(drivers[i]);
+    }
+  }
+  return match_arr;
   
   
   // var match_obj = {};
