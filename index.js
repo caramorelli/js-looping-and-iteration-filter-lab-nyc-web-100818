@@ -26,7 +26,7 @@ function matchName(drivers, string) {
   for ( var i = 0; i < drivers.length; i++) {
     var driver = drivers[i]
     if (driver[:name] == string) {
-      match_arr.push(drivers[i]);
+      match_arr.push(driver);
     }
   }
   return match_arr;
