@@ -30,15 +30,7 @@ function matchName(drivers, string) {
     }
   }
   return match_arr;
-  
-  
-  // var match_obj = {};
-  // for (var keys in drivers) {
-  //   if ( drivers[name] == string ) {
-  //     match_obj
-  //   }
-  // }
-  
+ 
 }
 
 // Write `matchName` - This function takes an array of `drivers` and a `string` as
