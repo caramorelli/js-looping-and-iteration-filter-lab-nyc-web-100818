@@ -22,12 +22,12 @@ function fuzzyMatch(drivers, string) {
 }
 
 function matchName(drivers, string) {
-  var match_obj = {};
-  for (var keys in drivers) {
-    if ( drivers[name] == string ) {
-      match_obj
-    }
-  }
+  // var match_obj = {};
+  // for (var keys in drivers) {
+  //   if ( drivers[name] == string ) {
+  //     match_obj
+  //   }
+  // }
   
 }
 
